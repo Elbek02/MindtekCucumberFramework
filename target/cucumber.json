@@ -1,0 +1,480 @@
+[
+  {
+    "line": 24,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-06T23:52:20.621Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2878684000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Validating successful place order",
+        "description": "",
+        "id": "pizza-application-place-order-functionality;validating-successful-place-order;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 96657000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 182520000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user navigates to \"PizzaApp\" application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PizzaApp\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.Hooks.user_navigates_to_web_orders_application(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3796803000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user creates pizza order with data",
+            "match": {
+              "location": "steps.PizzaAppSteps.user_creates_pizza_order_with_data(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Pizza",
+                  "Small 6 Slices - no toppings"
+                ]
+              },
+              {
+                "cells": [
+                  "Topping1",
+                  "Mushrooms"
+                ]
+              },
+              {
+                "cells": [
+                  "Topping2",
+                  "Extra cheese"
+                ]
+              },
+              {
+                "cells": [
+                  "Quantity",
+                  "1"
+                ]
+              },
+              {
+                "cells": [
+                  "Name",
+                  "Patel Harsh"
+                ]
+              },
+              {
+                "cells": [
+                  "Email",
+                  "patel@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Phone",
+                  "123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "Payment",
+                  "Cash on Pickup"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34496000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user validates that order is created with message \"Thank you for your order! TOTAL: \" \"1\" \"Small 6 Slices - no toppings\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your order! TOTAL: \"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"Small 6 Slices - no toppings\"",
+                  "offset": 90
+                }
+              ],
+              "location": "steps.PizzaAppSteps.userValidatesThatOrderIsCreatedWithMessage(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@UI"
+          },
+          {
+            "name": "@RTB-5"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-06T23:52:27.689Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1859242000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Validating successful place order",
+        "description": "",
+        "id": "pizza-application-place-order-functionality;validating-successful-place-order;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 88912000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 185241000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user navigates to \"PizzaApp\" application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PizzaApp\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.Hooks.user_navigates_to_web_orders_application(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3687556000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user creates pizza order with data",
+            "match": {
+              "location": "steps.PizzaAppSteps.user_creates_pizza_order_with_data(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Pizza",
+                  "Large 10 Slices - 2 toppings"
+                ]
+              },
+              {
+                "cells": [
+                  "Topping1",
+                  "Mushrooms"
+                ]
+              },
+              {
+                "cells": [
+                  "Topping2",
+                  "Extra cheese"
+                ]
+              },
+              {
+                "cells": [
+                  "Quantity",
+                  "3"
+                ]
+              },
+              {
+                "cells": [
+                  "Name",
+                  "John Doe"
+                ]
+              },
+              {
+                "cells": [
+                  "Email",
+                  "john@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Phone",
+                  "123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "Payment",
+                  "Credit Card"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22154000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user validates that order is created with message \"Thank you for your order! TOTAL: \" \"3\" \"Large 10 Slices - 2 toppings\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your order! TOTAL: \"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"Large 10 Slices - 2 toppings\"",
+                  "offset": 90
+                }
+              ],
+              "location": "steps.PizzaAppSteps.userValidatesThatOrderIsCreatedWithMessage(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@UI"
+          },
+          {
+            "name": "@RTB-5"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-06T23:52:33.543Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1871305000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Validating successful place order",
+        "description": "",
+        "id": "pizza-application-place-order-functionality;validating-successful-place-order;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 87764000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 170970000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user navigates to \"PizzaApp\" application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PizzaApp\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.Hooks.user_navigates_to_web_orders_application(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3665854000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user creates pizza order with data",
+            "match": {
+              "location": "steps.PizzaAppSteps.user_creates_pizza_order_with_data(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Pizza",
+                  "Medium 8 Slices - 2 toppings"
+                ]
+              },
+              {
+                "cells": [
+                  "Topping1",
+                  "Olives"
+                ]
+              },
+              {
+                "cells": [
+                  "Topping2",
+                  "Salami"
+                ]
+              },
+              {
+                "cells": [
+                  "Quantity",
+                  "2"
+                ]
+              },
+              {
+                "cells": [
+                  "Name",
+                  "Kim Yan"
+                ]
+              },
+              {
+                "cells": [
+                  "Email",
+                  "kim@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Phone",
+                  "123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "Payment",
+                  "Cash on Pickup"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21881000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user validates that order is created with message \"Thank you for your order! TOTAL: \" \"2\" \"Medium 8 Slices - 2 toppings\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your order! TOTAL: \"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"Medium 8 Slices - 2 toppings\"",
+                  "offset": 90
+                }
+              ],
+              "location": "steps.PizzaAppSteps.userValidatesThatOrderIsCreatedWithMessage(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@UI"
+          },
+          {
+            "name": "@RTB-5"
+          }
+        ]
+      }
+    ],
+    "name": "Pizza application place order functionality",
+    "description": "",
+    "id": "pizza-application-place-order-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PizzaApp.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 23,
+          "column": 1
+        }
+      },
+      {
+        "name": "@UI",
+        "type": "Tag",
+        "location": {
+          "line": 23,
+          "column": 13
+        }
+      }
+    ]
+  }
+]
